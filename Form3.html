@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="kiri">
+        <div class="navbar">
+            <img src="keretapi.png" alt="Kereta Api Indonesia" width="200">
+            <a href="index.html">Login</a>
+            <a href="Form2.html">Registrasi</a>
+            <a href="Form3.html">Daftar Jadwal KAI</a>
+        </div>
+    </div>
+    <div class="kanan">
+        <div class="konten">
+            <center>
+                <form>
+                    <table style="background-color:rgb(15, 16, 107);" cellspacing="40" cellpadding="10">
+                        <tr>
+                            <td class="header-form" colspan="2"><h2>Daftar Jadwal Kereta Api Indonesia</h2></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Kereta</td>
+                            <td><input type="text" name="First">
+                        </tr>
+                        <tr>
+                            <td>Tanggal Berangkat</td>
+                            <td><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Tiba</td>
+                            <td><input type="date"><td>
+                        </tr>
+                        <tr>
+                            <td>Jam Berangkat</td>
+                            <td><input type="time"></td>
+                        </tr>
+                        <tr>
+                            <td>Jam Tiba</td>
+                            <td><input type="time"></td>
+                        </tr>
+                        <tr>
+                            <td>Dari</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Ke</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Kelas</td>
+                            <td>
+                            <select name="kelas">
+                                <option value=""></option>
+                                <option value="Bisnis">Bisnis</option>
+                                <option value="Eksekutif">Eksekutif</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Simpan">
+                                <input type="reset" value="Batal">
+                            </td>
+                        </tr>
+
+                       <table border="1">
+                           <tr style="background:orangered">
+                               <td>No</td>
+                               <td>Nama Kereta</td>
+                               <td>Jadwal Berangkat</td>
+                               <td>Jadwal Tiba</td>
+                               <td>Dari</td>
+                               <td>Ke</td>
+                               <td>Harga(kelas)</td>
+                           </tr>
+                           <tr style="background:rgb(2, 7, 73)">
+                               <td>1</td>
+                               <td>Argo Parahyangan</td>
+                               <td>2022-04-08 - 06.00</td>
+                               <td>2022-04-08 - 08.45</td>
+                               <td>Gambir, Jakrta Pusat</td>
+                               <td>Bandung, Bandung</td>
+                               <td>Bisnis - 75.000</td>
+                           </tr>
+                           <tr style="background:orangered">
+                               <td>2</td>
+                               <td>Argo Parahyangan</td>
+                               <td>2022-04-09 - 09.00</td>
+                               <td>2022-04-09 - 14.45</td>
+                               <td>Gambir, Jakrta Pusat</td>
+                               <td>Surabaya</td>
+                               <td>Eksekutif - 100.000</td>
+                           </tr>
+                       </table>
+                    </table>
+                </form>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
